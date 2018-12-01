@@ -8,7 +8,7 @@ import (
 )
 
 func main() {
-	f, err := os.Open("input.txt")
+	f, err := os.Open("1-1.txt")
 	if err != nil {
 		log.Panic(err)
 	}
